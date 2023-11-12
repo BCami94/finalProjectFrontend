@@ -20,4 +20,9 @@ export class AddEditCartComponent {
     this.cartService.removeFromCart(item);
   }
 
+  public onBuy(){
+    // this.cartService.createCart()
+    this.cartService.createCartWithDto();
+  }
+
 }
